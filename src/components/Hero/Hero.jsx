@@ -11,52 +11,63 @@ import Image5 from "../../assets/hero_img/5.png";
 
 const Hero = () => {
   const settings = {
-    dots: true,
+    dots: false,
+    arrows: true,
     infinite: true,
-    speed: 2000, 
-    autoplay: true, 
-    autoplaySpeed: 3000, 
+    speed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     // Hero Section
-    <div className="w-full h-[50px]">
+    <div className="w-screen h-[50px]">
       <Slider {...settings}>
         <div>
           <img
             src={Image1}
             alt="Slide 1"
-            className="w-full h-full object-cover"
+            className="w-screen h-full object-cover"
           />
         </div>
         <div>
           <img
             src={Image2}
             alt="Slide 2"
-            className="w-full h-full object-cover"
+            className="w-screen h-full object-cover"
           />
         </div>
         <div>
           <img
             src={Image3}
             alt="Slide 3"
-            className="w-full h-full object-cover"
+            className="w-screen h-full object-cover"
           />
         </div>
         <div>
           <img
             src={Image4}
             alt="Slide 2"
-            className="w-full h-full object-cover"
+            className="w-screen h-full object-cover"
           />
         </div>
         <div>
           <img
             src={Image5}
             alt="Slide 3"
-            className="w-full h-full object-cover"
+            className="w-screen h-full object-cover"
           />
         </div>
       </Slider>
