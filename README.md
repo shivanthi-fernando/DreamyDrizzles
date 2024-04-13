@@ -3,11 +3,10 @@
 - The app was created using React + Vite and used Tailwind CSS for styling
 
 - Features:
+  1. Light Mode NavBar
+ 
+  ![LightMode NavBar](LightMode_NavBar.png)
 
-  1. NavBar
-  2. Dark Mode Option
-  3. Hero Section
-
-  ![Dreamy Drizzles - Light Mode](./src/snapshots/LightMode.png)
-
-  ![Dreamy Drizzles - Dark Mode](./src/snapshots/DarkMode.png)
+  2. Dark Mode NavBar
+ 
+  ![DarkMode NavBar](DarkMode_NavBar.png)
