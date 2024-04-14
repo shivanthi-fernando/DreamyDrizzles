@@ -33,7 +33,7 @@ const Hero = () => {
 
   return (
     // Hero Section
-    <div className="w-screen h-[505px] bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
+    <div className="w-screen h-[505px] bg-white dark:bg-black dark:text-white duration-200 relative z-40">
       <Slider {...settings}>
         <div>
           <img
