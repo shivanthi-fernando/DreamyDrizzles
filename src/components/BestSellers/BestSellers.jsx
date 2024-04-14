@@ -43,11 +43,11 @@ const BestSellingItemsData = [
 
 const BestSeller = () => {
   return (
-    <div className="mb-12 bg-white dark:bg-black dark:text-white duration-200 relative z-40">
+    <div className="bg-white dark:bg-black dark:text-white duration-200 relative z-40">
       <div className="container">
         {/* Header Section */}
         <div className="text-center mb-10">
-          <h2 className="pt-8 text-3xl font-bold">Best Selling Items</h2>
+          <h2 className="pt-8 text-3xl font-bold dark:text-primary">Best Selling Items</h2>
         </div>
         {/* Body Section */}
         <div>
@@ -67,12 +67,12 @@ const BestSeller = () => {
                     <FaStar className="text-yellow-400 mt-1 mr-1" />
                     <span>{data.rating}</span>
                   </div>
-
-                  <p className="text-md text-gray-800">{data.price}</p>
+                  <p className="mb-3 text-md text-gray-800 dark:text-white">
+                    {data.price}
+                  </p>
                 </div>
               </div>
             ))}
-            ;
           </div>
         </div>
       </div>
