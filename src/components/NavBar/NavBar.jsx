@@ -56,7 +56,7 @@ const NavBar = () => {
   return (
     <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
       {/* Upper NavBar */}
-      <div className="bg-primary/100 py-1">
+      <div className="bg-primary/100 dark:text-black py-1">
         <div className="container flex justify-between items-center">
           {/* Logo */}
           <div>

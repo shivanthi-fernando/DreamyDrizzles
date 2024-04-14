@@ -16,7 +16,7 @@ const Hero = () => {
     infinite: true,
     speed: 2000,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: "linear",
@@ -33,7 +33,7 @@ const Hero = () => {
 
   return (
     // Hero Section
-    <div className="w-screen h-[50px]">
+    <div className="w-screen h-[505px] bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
       <Slider {...settings}>
         <div>
           <img
