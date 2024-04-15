@@ -43,7 +43,10 @@ const BreadsAndPastries = () => {
           </h2>
         </div>
         {/* Body Section */}
-        <div data-aos="fade-up" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center pb-3">
+        <div
+          data-aos="zoom-in"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center pb-3"
+        >
           {ItemsData.map((data) => (
             // eslint-disable-next-line react/jsx-key
             <div className="rounded 2xl bg-primary/60 dark:bg-white/10 hover:bg-primary dark:hover:bg-primary/20 dark:hover:text-white relative shadow-xl duration-340 group max-w-[300px]">
@@ -66,7 +69,7 @@ const BreadsAndPastries = () => {
                   <FaStar className="text-yellow-500" />
                 </div>
                 <h1 className="text-xl font-bold pt-1">{data.title}</h1>
-                <p className="text-gray-700 duration-300 text-sm line-clamp-4 py-1 px-2">
+                <p className="text-gray-700 duration-300 text-sm line-clamp-4 py-1 px-2 dark:text-gray-300 ">
                   {data.description}
                 </p>
                 <button className="bg-secondary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-secondary group-hover:text-black">

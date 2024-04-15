@@ -6,6 +6,7 @@ import BestSellers from "./components/BestSellers/BestSellers";
 import BreadsAndPastries from "./components/BreadsAndPastries.jsx/BreadsAndPastries";
 import CakesAndDesserts from "./components/CakesAndDesserts/CakesAndDesserts";
 import Beverages from "./components/Beverages/Beverages";
+import Testimonials from "./components/Testimonials/Testimonials";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -28,6 +29,7 @@ const App = () => {
       <BreadsAndPastries />
       <CakesAndDesserts />
       <Beverages />
+      <Testimonials />
     </div>
   );
 };

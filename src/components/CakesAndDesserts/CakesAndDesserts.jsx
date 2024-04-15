@@ -36,7 +36,7 @@ const CakesAndDesserts = () => {
         {/* Header Section */}
         <div className="text-left mb-24">
           <h2
-            data-aos="fade-up"
+            data-aos="zoom-in"
             className="pt-8 pb-4 text-3xl dark:text-primary"
           >
             Cakes and Desserts
@@ -69,7 +69,7 @@ const CakesAndDesserts = () => {
                   <FaStar className="text-yellow-500" />
                 </div>
                 <h1 className="text-xl font-bold pt-1">{data.title}</h1>
-                <p className="text-gray-700 duration-300 text-sm line-clamp-4 py-1 px-2">
+                <p className="text-gray-700 duration-300 text-sm line-clamp-4 py-1 px-2 dark:text-gray-300">
                   {data.description}
                 </p>
                 <button className="bg-secondary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-secondary group-hover:text-black">
