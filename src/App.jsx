@@ -4,9 +4,10 @@ import NavBar from "./components/NavBar/NavBar";
 import Hero from "./components/Hero/Hero";
 import BestSellers from "./components/BestSellers/BestSellers";
 import BreadsAndPastries from "./components/BreadsAndPastries.jsx/BreadsAndPastries";
+import CakesAndDesserts from "./components/CakesAndDesserts/CakesAndDesserts";
+import Beverages from "./components/Beverages/Beverages";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import CakesAndDesserts from "./components/CakesAndDesserts/CakesAndDesserts";
 
 const App = () => {
   React.useEffect(() => {
@@ -26,6 +27,7 @@ const App = () => {
       <BestSellers />
       <BreadsAndPastries />
       <CakesAndDesserts />
+      <Beverages />
     </div>
   );
 };
