@@ -4,7 +4,7 @@ import DreamyDrizzlesLogo from "../../assets/DreamyDrizzlesLogo.png";
 import DarkMode from "../DarkMode";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
-import { FaCaretDown } from "react-icons/fa";
+//import { FaCaretDown } from "react-icons/fa";
 
 const Menu = [
   {
@@ -24,33 +24,38 @@ const Menu = [
   },
   {
     id: 4,
+    name: "Cakes & Desserts",
+    link: "/#",
+  },
+  {
+    id: 5,
     name: "Beverages",
     link: "/#",
   },
 ];
 
-const DropdownLinks = [
-  {
-    id: 1,
-    name: "Cakes",
-    link: "/#",
-  },
-  {
-    id: 2,
-    name: "Cup Cakes",
-    link: "/#",
-  },
-  {
-    id: 3,
-    name: "Donuts",
-    link: "/#",
-  },
-  {
-    id: 4,
-    name: "Other",
-    link: "/#",
-  },
-];
+// const DropdownLinks = [
+//   {
+//     id: 1,
+//     name: "Cakes",
+//     link: "/#",
+//   },
+//   {
+//     id: 2,
+//     name: "Cup Cakes",
+//     link: "/#",
+//   },
+//   {
+//     id: 3,
+//     name: "Donuts",
+//     link: "/#",
+//   },
+//   {
+//     id: 4,
+//     name: "Other",
+//     link: "/#",
+//   },
+// ];
 
 const NavBar = () => {
   return (
@@ -113,7 +118,7 @@ const NavBar = () => {
             </li>
           ))}
           {/* Drop Down */}
-          <li className="group relative cursor-pointer">
+          {/* <li className="group relative cursor-pointer">
             <a href="" className="flex items-center gap-[2px] py-2">
               Cakes & Desserts
               <span>
@@ -134,7 +139,7 @@ const NavBar = () => {
                 ))}
               </ul>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
