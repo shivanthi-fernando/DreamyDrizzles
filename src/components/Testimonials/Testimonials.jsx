@@ -75,7 +75,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="bg-white dark:bg-black dark:text-white duration-200 relative z-40 py-10 mb-10">
+    <div className="bg-white dark:bg-black dark:text-white duration-200 relative z-40 pt-10 pb-20">
       <div className="container">
         {/* Header Section */}
         <div className="text-center mb-10">
