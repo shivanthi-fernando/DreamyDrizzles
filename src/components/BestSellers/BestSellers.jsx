@@ -47,7 +47,12 @@ const BestSeller = () => {
       <div className="container">
         {/* Header Section */}
         <div className="text-center mb-10">
-          <h2 className="pt-8 text-3xl font-bold dark:text-primary">Best Selling Items</h2>
+          <h2
+            data-aos="fade-up"
+            className="pt-8 text-3xl font-bold dark:text-primary"
+          >
+            Best Selling Items
+          </h2>
         </div>
         {/* Body Section */}
         <div>
@@ -55,14 +60,21 @@ const BestSeller = () => {
             {/* Card Section */}
             {BestSellingItemsData.map((data) => (
               // eslint-disable-next-line react/jsx-key
-              <div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay={data.aosDelay}
+                key={data.id}
+                className="space-y-3"
+              >
                 <img
                   src={data.img}
                   alt=""
                   className="h-[220px] w-[150px] object-cover rounded-md"
                 />
                 <div>
-                  <h3 className="font-semibold mt-1">{data.title}</h3>
+                  <h3 className="font-semibold mt-1">
+                    {data.title}
+                  </h3>
                   <div className="flex">
                     <FaStar className="text-yellow-400 mt-1 mr-1" />
                     <span>{data.rating}</span>
