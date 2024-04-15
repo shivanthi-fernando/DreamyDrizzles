@@ -3,6 +3,7 @@ import React from "react";
 import NavBar from "./components/NavBar/NavBar";
 import Hero from "./components/Hero/Hero";
 import BestSellers from "./components/BestSellers/BestSellers";
+import BreadsAndPastries from "./components/BreadsAndPastries.jsx/BreadsAndPastries";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,6 +23,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <BestSellers />
+      <BreadsAndPastries />
     </div>
   );
 };
