@@ -6,6 +6,7 @@ import BestSellers from "./components/BestSellers/BestSellers";
 import BreadsAndPastries from "./components/BreadsAndPastries.jsx/BreadsAndPastries";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CakesAndDesserts from "./components/CakesAndDesserts/CakesAndDesserts";
 
 const App = () => {
   React.useEffect(() => {
@@ -24,6 +25,7 @@ const App = () => {
       <Hero />
       <BestSellers />
       <BreadsAndPastries />
+      <CakesAndDesserts />
     </div>
   );
 };
