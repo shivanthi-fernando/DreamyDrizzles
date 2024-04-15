@@ -7,6 +7,7 @@ import BreadsAndPastries from "./components/BreadsAndPastries.jsx/BreadsAndPastr
 import CakesAndDesserts from "./components/CakesAndDesserts/CakesAndDesserts";
 import Beverages from "./components/Beverages/Beverages";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Footer from "./components/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -30,6 +31,7 @@ const App = () => {
       <CakesAndDesserts />
       <Beverages />
       <Testimonials />
+      <Footer/>
     </div>
   );
 };
